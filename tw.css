@@ -1,0 +1,262 @@
+body {
+	margin: 0%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #08708A;
+}
+
+.bumpers {
+/*	margin: 8px;
+*/}
+
+p {
+	line-height: 1.75;
+	margin: 15px;
+	font-weight: 300;
+}
+
+#nav-container {
+	text-align: center;
+}
+
+#nav-header {
+	background-color: #EDFAFD;
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+#menu-icon {
+	display: inline-block;
+	background: #EDFAFD url(images/arrow.png) center;
+	height: 26px;
+	width: 32px;
+	padding-top: 6px;
+	border-radius: 6px;
+}
+
+nav a {
+	color: #08708A;
+}
+
+nav ul, nav:active ul {
+	display: none;
+	position: center;
+/*	padding: 1px;
+*/	background: #EDFAFD;
+/*background-color: rgb(237,251,254,0.9);
+*/
+	padding: 0;
+	top: 150px;
+	width: 55%;
+	margin: 0 auto;
+	border-radius: 4px 4px 4px 4px;
+}
+
+nav li {
+	text-align: center;
+	width: 100%;
+	padding: 13px 0;
+}
+
+nav:hover ul {
+	display: block;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 300;
+	color: #08708A;
+	text-align: center;
+	margin: 15px 0;
+}
+
+h1 span {
+	font-size: 30px;
+	font-weight: 300;
+	color: #3DDAD7;
+}
+
+a {
+	text-decoration: none;
+	color: #2A93D5;
+}
+
+a:hover {
+	color: #3DDAD7;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nav-padding {
+	margin-top: 150px;
+}
+
+.nav-menu {
+	font-size: 16px;
+}
+
+#welcome-section {
+	background-image: url(images/greece.jpg);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+}
+
+/*CLEAN THIS UP*/
+#welcome-section h2 {
+	color: #08708A;
+	font-size: 45px;
+
+	border-radius: 6px;
+	padding: 3px 24px;
+	font-weight: 300;
+	position: absolute;
+	top: 25vh;
+	left: 5px;
+	padding: 0 10px;
+
+	text-align: right;
+	/*text-shadow: -2px -2px 4px #bdeffb;*/
+
+/*	text-shadow: 2px 4px 3px rgba(189,239,251,0.3);
+*/}
+
+.highlight {
+	background-color: rgb(237,251,254,0.7);
+}
+
+.background-ocean-box {
+	background-color: #BBDED6;
+	width: 100%;
+}
+
+h2 {
+	color: #08708A;
+	font-size: 55px;
+	font-weight: 300;
+	text-align: right;
+	margin: 15px;
+}
+
+h4 {
+	line-height: 1.75;
+	text-align: center;
+	font-size: 24px;
+	margin: 10px;
+	font-weight: 300;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+.home-small-box {
+	/*background-image: url(image/coins-travel.jpg);
+	background-size: 200px 100px;
+	background-repeat: no-repeat;*/
+	background-color: #EDFAFD;
+	border: 2px solid #08708A;
+	width: 90vw;
+	height: 255px;
+	margin: 0 auto;
+
+}
+
+.home-small-box p {
+	padding: 0 10px;
+	text-align: center;
+}
+
+.first-sentence {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.button {
+	background-color: #EDFAFD;
+	font-size: 18px;
+	color: #3DDAD7;
+	border-radius: 6px;
+	padding: 8px 24px;
+	border: 2px solid #3DDAD7;
+	/*add on hover*/
+}
+
+.button-container {
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #3DDAD7;
+	color: #EDFAFD;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+
+}
+
+.grid {
+/*	align-content: center;
+*/	/*display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;*/
+}
+
+.testimonial-cell {
+	margin: 1rem;
+	padding: 10px 4px;
+/*	align-content: center;*/
+}
+
+.testimonial-cell img {
+	display: block;
+}
+
+.responsive-image {
+	max-width: 100%;
+}
+
+.newsletter {
+	color: #3DDAD7;
+	font-weight: 400;
+}
+
+footer {
+	font-size: 15px;
+	line-height: 1.75;
+	margin: 15px;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 600px) {
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+	.testimonial-cell {
+		width: calc(50% - 2rem);
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.testimonial-cell {
+		width: calc(33.33% - 2rem);
+	}
+}
+
+
+
