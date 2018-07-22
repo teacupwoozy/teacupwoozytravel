@@ -3,24 +3,46 @@
 <head>
 	<meta charset="utf-8">
 	<title>Teacup Woozy | Personalized Travel Planning | Services</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="tw.css">
 </head>
 <body>
-	<header>
-		<!-- INSERT HEADER ONCE COMPLETED -->
-	</header>
-	<section>
+	<!-- INSERT HEADER ONCE COMPLETED -->
+	<header id="nav-header">
+	<div id="logo">
+		<h1>T E A C U P   W O O Z Y<br>
+		<span>personalized travel planning</span></h1>
+	</div>
+
+	<nav id="nav-container">
+		<a href="#" id="menu-icon"></a>
+		<ul>
+			<li class="nav-menu"><a href="home.html">Home</a></li>
+			<li class="nav-menu"><a href="services.html">Services</a></li>
+			<li class="nav-menu"><a href="blog.html">Blog</a></li>
+			<li class="nav-menu"><a href="about.html">About</a></li>
+			<li class="nav-menu"><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>	
+</header>
+	<section class="nav-padding">
 	<!-- Main content -->
 	<!-- Air travel planning -->
 	<h2>TRAVEL PLANNING SERVICES</h2>
 	<!-- flights -->
 	<article class="services-container">
-		<div class="services-left">
+		
+		<header class="services-left">
+			<h3>AIR TRAVEL PLANNING</h3>
+			<img src="images/airplane-icon.png" alt="black and white icon of airplane">
+		</header>
+		<div class="services-right">
 			<h4>Get the best routes, connections, and pricing for your destination.</h4>
 			<p>Researching flight itineraries, routes, airlines, stopovers, and prices can be a ton of work, and it can be frustrating. I can make your life easier by doing all of that work for you. And, because I have years of experience finding great routes and great prices, I save my clients time and money all the time.</p>
 			<h5>$45 PER DESTINATION</h5>
 			<button class="button" onclick="#">I'M INTERESTED!</button>
 			<h5>WHAT'S INCLUDED</h5>
-			<ul>
+			<ul class="included-list">
 				<li>A handful of flight options based on your priorities (cost, total travel time, and the number of flights)</li>
 				<li>The pros and cons of the different fights/airlines</li>
 				<li>Suggestions on when to purchase</li>
@@ -28,14 +50,14 @@
 				<li>All of your trip information is provided in a convenient electronic format.</li>
 			</ul>
 		</div>
-		<header class="services-right">
-			<h3>AIR TRAVEL PLANNING</h3>
-			<img src="images/airplane-icon.png">
-		</header>
 	</article>
 	<!-- accommodations -->
 	<article class="services-container">
-		<div class="services-left">
+		<header class="services-left">
+			<h3>ACCOMMODATIONS PLANNING</h3>
+			<img src="images/hotel-icon.png" alt="black and white icon of a bed">
+		</header>
+		<div class="services-right">
 			<h4>I will sort through dozens, if not hundreds, of accommodations and curate a small selection that I believe will really suit you and the trip you have in mind.</h4>
 			<p>Sorting through dozens, if not hundreds, of accommodations listings and reviews can be an incredibly time-consuming task. And, quite frankly, it can be overwhelming for a lot of people.</p>
 			<p>And, when you aren't familiar with the destination, it's easy to inadvertently pick the wrong place to stay. Over the years, I’ve heard countless stories from disappointed travelers who, despite their best efforts, still ended up staying at the wrong place: outer edges of the city that required they travel an hour on the metro each way, sterile hotels with no charm of the city they’re staying in, an Airbnb that was nothing like what the photos showed. Unfortunately, the list goes on and on.</p>
@@ -53,19 +75,19 @@
 				<li>All of your trip information is provided in a convenient electronic format.</li>
 			</ul>
 		</div>
-		<header class="services-right">
-			<h3>ACCOMMODATIONS PLANNING</h3>
-			<img src="images/hotel-icon.png">
-		</header>
+		
 	</article>
 	<!-- Standard travel planning -->
 	<article class="services-container">
-		<div class="services-left">
+		<header class="services-left">
+			<h3>STANDARD TRAVEL PLANNING</h3>
+			<img src="images/suitcase-icon.png" alt="black and white icon of a suitecase">
+		</header>
+		<div class="services-right">
 			<h4>Get all of your basics covered: air travel research, accommodations shortlist, visa requirements, and destination basics</h4>
 			<p>Planning an amazing vacation can take an incredible amount of time - something a lot of people don't ever have enough of. And, if you don't have a lot of experience planning travel, it can also be overwhelming.</p>
 			<p>So many people are hardpressed to find the time and the patience to research and plan travel, that they keep putting off those dream vacations or they settle for something that's less than what they really want.</p>
 			<p>With this travel planning package, I will take care of researching all of the basics for you - saving you time and frustration. And, most importantly, we can make your trip a reality.</p>
-			
 			<h5>$130 PER DESTINATION</h5>
 			<button class="button" onclick="#">I'M INTERESTED!</button>
 			<h5>WHAT'S INCLUDED</h5>
@@ -80,14 +102,14 @@
 				<li>All of your trip information is provided in a convenient electronic format.</li>
 			</ul>
 		</div>
-		<header class="services-right">
-			<h3>STANDARD TRAVEL PLANNING</h3>
-			<img src="images/suitcase-icon.png">
-		</header>
 	</article>
 	<!-- Deluxe travel planning -->
 	<article class="services-container">
-		<div class="services-left">
+		<header class="services-left">
+			<h3>DELUXE TRAVEL PLANNING</h3>
+			<img src="images/deluxe-icon.png" alt="black and white icon of beach with umbrella and ball">
+		</header>
+		<div class="services-right">
 			<h4>This full-service travel planning package includes all of the Mid Level services, plus: transportation information, activities/sightseeing information, dining information, 30-minute phone consultation, travel resources/apps, and more</h4>
 			<p>Would you prefer to have help with researching and planning all aspects of your trip? No problem, that's what I'm here for!</p>
 			<p>With this full-service travel planning package, I get to really dig in and provide you with everything you'll need to go on your vacation. All you'll need to do is buy your tickets, book your accommodation, and pack your bag!</p>
@@ -115,14 +137,15 @@
 				<li>All of your trip information is provided in a convenient electronic format.</li>
 			</ul>
 		</div>
-		<header class="services-right">
-			<h3>DELUXE TRAVEL PLANNING</h3>
-			<img src="images/deluxe-icon.png">
-		</header>
+		
 	</article>
 	<!-- Digital nomad -->
 	<article class="services-container">
-		<div class="services-left">
+		<header class="services-left">
+			<h3>DIGITAL NOMAD TRAVEL PLANNING</h3>
+			<img src="images/laptop-icon.png" alt="black and white icon of a laptop">
+		</header>
+		<div class="services-right">
 			<h4>I'll research all of the logistics for your next destination: transportation/flights, visas, destination basics, accommodations, co-working spaces, day trips, and more!</h4>
 			<p>Your time is a limited resource and it's valuable. Let me help you to make the best use of your time by taking the chore of travel planning off your plate so that you can focus on your own business. For this digital nomad package, I will handle all of the time-consuming research and planning that you normally have to do whenever you change locations.</p>
 			
@@ -142,18 +165,24 @@
 				<li>All of your trip information is provided in a convenient electronic format.</li>
 			</ul>
 		</div>
-		<header class="services-right">
-			<h3>DIGITAL NOMAD TRAVEL PLANNING</h3>
-			<img src="images/laptop-icon.png">
-		</header>
+		
 	</article>
-
-
-
-
 	</section>
+
 	<footer>
 		<!-- INSERT FOOTER ONCE COMPLETED -->
+		<br>
+		<h4 class="newsletter">SIGN UP FOR MY ALL-THINGS-TRAVEL NEWSLETTER!</h4>
+		<h5>Two or three times a month, get hand-curated travel news and stories sent right to your inbox.</h5>
+		<h5>Sign up <a href="http://eepurl.com/dfZ7wr" target="_blank">here</a>!</h5>
+		<br><br>
+		<!-- flexbox -->
+		<div class="footer-container">
+			<div>
+				<p><a href="legal.html">Privacy Policy</a> | <a href="legal.html">Terms of Service</a> | <a href="legal.html">Disclaimers & Liability</a> | <a href="legal.html">Use of Cookies</a> (no, not those kinds)</p>
+				<p>Copyright &copy; 2018 Teacup Woozy LLC || All rights reserved.</p>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>

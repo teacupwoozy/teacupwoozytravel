@@ -5,10 +5,6 @@ body {
 	color: #08708A;
 }
 
-.bumpers {
-/*	margin: 8px;
-*/}
-
 p {
 	line-height: 1.75;
 	margin: 15px;
@@ -47,8 +43,6 @@ nav ul, nav:active ul {
 	position: center;
 /*	padding: 1px;
 */	background: #EDFAFD;
-/*background-color: rgb(237,251,254,0.9);
-*/
 	padding: 0;
 	top: 150px;
 	width: 55%;
@@ -89,8 +83,9 @@ a:hover {
 	color: #3DDAD7;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
+	padding: 0px;
 }
 
 .nav-padding {
@@ -109,24 +104,17 @@ ul {
 	height: 100vh;
 }
 
-/*CLEAN THIS UP*/
 #welcome-section h2 {
 	color: #08708A;
 	font-size: 45px;
-
-	border-radius: 6px;
-	padding: 3px 24px;
-	font-weight: 300;
+/*	border-radius: 6px;
+*/	font-weight: 300;
 	position: absolute;
 	top: 25vh;
-	left: 5px;
+	left: -10px;
 	padding: 0 10px;
-
 	text-align: right;
-	/*text-shadow: -2px -2px 4px #bdeffb;*/
-
-/*	text-shadow: 2px 4px 3px rgba(189,239,251,0.3);
-*/}
+}
 
 .highlight {
 	background-color: rgb(237,251,254,0.7);
@@ -145,16 +133,21 @@ h2 {
 	margin: 15px;
 }
 
+h3 {
+	font-size: 40px;
+	font-weight: 300;
+}
+
 h4 {
 	line-height: 1.75;
 	text-align: center;
 	font-size: 24px;
 	margin: 10px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h5 {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .home-small-box {
@@ -164,7 +157,7 @@ h5 {
 	background-color: #EDFAFD;
 	border: 2px solid #08708A;
 	width: 90vw;
-	height: 255px;
+	height: 275px;
 	margin: 0 auto;
 
 }
@@ -186,7 +179,6 @@ h5 {
 	border-radius: 6px;
 	padding: 8px 24px;
 	border: 2px solid #3DDAD7;
-	/*add on hover*/
 }
 
 .button-container {
@@ -215,7 +207,7 @@ h5 {
 
 .testimonial-cell {
 	margin: 1rem;
-	padding: 10px 4px;
+	padding: 10px 2px;
 /*	align-content: center;*/
 }
 
@@ -232,6 +224,33 @@ h5 {
 	font-weight: 400;
 }
 
+/*SERVICE PAGE*/
+.services-container {
+
+}
+
+.services-left {
+	border: 1px solid red;
+	background-color: #BBDED6;
+	text-align: center;
+	height: 300px;
+
+}
+
+.services-right {
+	text-align: center;
+}
+
+.included-list {
+	text-align: left;
+	line-height: 1.5;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+
 footer {
 	font-size: 15px;
 	line-height: 1.75;
@@ -240,23 +259,90 @@ footer {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
 	.grid {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
-
 	.testimonial-cell {
-		width: calc(50% - 2rem);
+		width: calc(50% - 2.25rem);
+	}
+	#welcome-section h2 {
+	top: 35vh;
+	left: 15vw;
 	}
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
 	.testimonial-cell {
-		width: calc(33.33% - 2rem);
+		width: calc(33.33% - 2.25rem);
 	}
+	#welcome-section h2 {
+	left: 35vw;
+	}
+	.home-small-box {
+	width: 55vw;
+	height: 250px;
+	margin: 0 auto;
 }
+	footer h5 {
+		max-width: 60%;
+		margin: 0 auto;
+	}
 
+@media screen and (min-width: 992px) {
+	p {
+		margin: auto;
+		width: 70%;
+	}
+	h2 {
+		width: 90%;
+	}
+	#nav-header {
+		height: 100px;
+	}
+	#welcome-section h2 {
+		left: 0vw;
+		font-size: 55px;
+	}
+	#menu-icon {
+		display: none;
+	}
+	#nav-header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: left;
+		padding: 10px;
+		width: 100vw;
+	}
+/*	#nav-container {
+		padding: 40px;
+	}*/
+	nav ul {
+		display: flex;
+	}
+	.nav-menu {
+		padding: 10px 10px;
+		font-size: 17px;
+	}
+
+	/*fix below for full size nav*/
+/*	nav:hover ul {
+		display: inline;
+	}*/
+	nav li {
+		display: inline;
+	}
+	#nav-container {
+		width: 400px;
+	}
+	.nav-padding {
+	margin-top: 120px;
+	}
+	.home-small-box {
+		height: 225px;
+}
 
 
