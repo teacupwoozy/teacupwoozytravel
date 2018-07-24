@@ -41,8 +41,7 @@ nav a {
 nav ul, nav:active ul {
 	display: none;
 	position: center;
-/*	padding: 1px;
-*/	background: #EDFAFD;
+	background: #EDFAFD;
 	padding: 0;
 	top: 150px;
 	width: 55%;
@@ -107,8 +106,7 @@ nav ul {
 #welcome-section h2 {
 	color: #08708A;
 	font-size: 45px;
-/*	border-radius: 6px;
-*/	font-weight: 300;
+	font-weight: 300;
 	position: absolute;
 	top: 25vh;
 	left: -10px;
@@ -117,7 +115,8 @@ nav ul {
 }
 
 .highlight {
-	background-color: rgb(237,251,254,0.7);
+	background-color: rgb(237,251,254);
+	opacity: 0.7;
 }
 
 .background-ocean-box {
@@ -136,6 +135,7 @@ h2 {
 h3 {
 	font-size: 40px;
 	font-weight: 300;
+	margin: 10px;
 }
 
 h4 {
@@ -148,6 +148,8 @@ h4 {
 
 h5 {
 	font-size: 18px;
+	line-height: 1.5;
+	margin: 10px;
 }
 
 .home-small-box {
@@ -159,7 +161,6 @@ h5 {
 	width: 90vw;
 	height: 275px;
 	margin: 0 auto;
-
 }
 
 .home-small-box p {
@@ -194,25 +195,23 @@ h5 {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 1rem;
-
 }
 
 .grid {
-/*	align-content: center;
-*/	/*display: flex;
+	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;*/
+	flex-wrap: nowrap;
 }
 
 .testimonial-cell {
 	margin: 1rem;
 	padding: 10px 2px;
-/*	align-content: center;*/
 }
 
 .testimonial-cell img {
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .responsive-image {
@@ -225,16 +224,10 @@ h5 {
 }
 
 /*SERVICE PAGE*/
-.services-container {
-
-}
-
 .services-left {
-	border: 1px solid red;
 	background-color: #BBDED6;
 	text-align: center;
 	height: 300px;
-
 }
 
 .services-right {
@@ -250,16 +243,37 @@ ul {
 	list-style-type: disc;
 }
 
+/*ABOUT PAGE*/
+#about-container {
+	background-color: #BBDED6;
+}
+
+#about-photo {
+	border-radius: 80%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 footer {
+	background-color: #EDFAFD;
 	font-size: 15px;
 	line-height: 1.75;
-	margin: 15px;
+	margin: 0;
 	text-align: center;
 }
 
 
 @media screen and (min-width: 480px) {
+	#welcome-section h2 {
+	top: 35vh;
+	left: 15vw;
+	}
+}
+
+@media screen and (min-width: 600px) {
 	.grid {
 		display: flex;
 		flex-wrap: wrap;
@@ -268,15 +282,15 @@ footer {
 	.testimonial-cell {
 		width: calc(50% - 2.25rem);
 	}
-	#welcome-section h2 {
-	top: 35vh;
-	left: 15vw;
-	}
 }
 
 @media screen and (min-width: 768px) {
-	.testimonial-cell {
-		width: calc(33.33% - 2.25rem);
+	p, h5, h4, .included-list{
+		margin: auto;
+		width: 80%;
+	}
+	.testimonial-about {
+		width: calc(50% - 2.25rem);
 	}
 	#welcome-section h2 {
 	left: 35vw;
@@ -285,18 +299,27 @@ footer {
 	width: 55vw;
 	height: 250px;
 	margin: 0 auto;
-}
+	}
+	.services-right p {
+		text-align: left;
+	}
+	.included-list {
+
+	}
+	#about-photo {
+		float: left;
+		padding: 20px;
+	}
 	footer h5 {
-		max-width: 60%;
+		max-width: 40%;
 		margin: 0 auto;
 	}
 
+}
+
 @media screen and (min-width: 992px) {
-	p {
-		margin: auto;
-		width: 70%;
-	}
 	h2 {
+		font-size: 65px;
 		width: 90%;
 	}
 	#nav-header {
@@ -341,8 +364,29 @@ footer {
 	.nav-padding {
 	margin-top: 120px;
 	}
+
 	.home-small-box {
 		height: 225px;
+	}
+	.testimonial-cell {
+		width: calc(33.33% - 2.25rem);
+	}
+	.testimonial-about {
+		width: calc(50% - 2.25rem);
+	}
+	.services-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.services-cell {
+		width: 50%;
+		height: 1000px;
+	}
+	#about-photo {
+		float: left;
+	}
 }
+
 
 
