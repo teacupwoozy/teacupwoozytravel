@@ -257,6 +257,11 @@ ul {
 	margin-right: auto;
 }
 
+/*CONTACT PAGE*/
+#contact {
+	text-align: center;
+}
+
 footer {
 	background-color: #EDFAFD;
 	font-size: 15px;
