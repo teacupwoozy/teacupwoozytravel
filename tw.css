@@ -64,7 +64,7 @@ h1 {
 	font-weight: 300;
 	color: #08708A;
 	text-align: center;
-	margin: 15px 0;
+	margin: 15px 20px;
 }
 
 h1 span {
@@ -290,7 +290,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-	p, h5, h4, .included-list{
+	p, h5, h4, .included-list, #legal{
 		margin: auto;
 		width: 80%;
 	}
@@ -319,7 +319,6 @@ footer {
 		max-width: 40%;
 		margin: 0 auto;
 	}
-
 }
 
 @media screen and (min-width: 992px) {
