@@ -1,2 +1,2 @@
 # teacupwoozytravel
-website for travel planning company
+work-in-progress for travel planning company website
