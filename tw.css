@@ -243,6 +243,21 @@ ul {
 	list-style-type: disc;
 }
 
+/* BLOG PAGE */
+.blog-container img {
+	display: block;
+	margin: 0 auto;
+}
+
+.blog-index-titles {
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.blog-link {
+	font-size: .75em;
+}
+
 /*ABOUT PAGE*/
 #about-container {
 	background-color: #BBDED6;
@@ -289,6 +304,7 @@ footer {
 	}
 }
 
+/* insert break for blog index page -- side by side */
 @media screen and (min-width: 768px) {
 	p, h5, h4, .included-list, #legal{
 		margin: auto;
@@ -310,6 +326,20 @@ footer {
 	}
 	.included-list {
 
+	}
+	.blog-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.blog-container img {
+		max-width: 100%;
+		width: auto;
+		height: auto;
+	}
+	.blog-cell {
+		width: 50%;
+		height: 700px;
 	}
 	#about-photo {
 		float: left;
