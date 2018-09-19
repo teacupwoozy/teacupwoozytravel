@@ -11,9 +11,9 @@ p {
 	font-weight: 300;
 }
 
-#nav-container {
+/* #nav-container {
 	text-align: center;
-}
+} */
 
 #nav-header {
 	background-color: #EDFAFD;
@@ -25,20 +25,20 @@ p {
 	z-index: 100;
 }
 
-#menu-icon {
+/* #menu-icon {
 	display: inline-block;
 	background: #EDFAFD url(images/arrow.png) center;
 	height: 26px;
 	width: 32px;
 	padding-top: 6px;
 	border-radius: 6px;
-}
+} */
 
 nav a {
 	color: #08708A;
 }
 
-nav ul, nav:active ul {
+/* nav ul, nav:active ul {
 	display: none;
 	position: center;
 	background: #EDFAFD;
@@ -57,7 +57,7 @@ nav li {
 
 nav:hover ul {
 	display: block;
-}
+} */
 
 h1 {
 	font-size: 30px;
@@ -82,18 +82,18 @@ a:hover {
 	color: #3DDAD7;
 }
 
-nav ul {
+/* nav ul {
 	list-style-type: none;
 	padding: 0px;
-}
+} */
 
 .nav-padding {
 	margin-top: 150px;
 }
 
-.nav-menu {
+/* .nav-menu {
 	font-size: 16px;
-}
+} */
 
 #welcome-section {
 	background-image: url(images/greece.jpg);
@@ -331,6 +331,7 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
+		margin: 0 8px;
 	}
 	.blog-container img {
 		max-width: 100%;
@@ -363,9 +364,9 @@ footer {
 		left: 0vw;
 		font-size: 55px;
 	}
-	#menu-icon {
+	/* #menu-icon {
 		display: none;
-	}
+	} */
 	#nav-header {
 		display: flex;
 		flex-direction: row;
@@ -377,24 +378,24 @@ footer {
 /*	#nav-container {
 		padding: 40px;
 	}*/
-	nav ul {
+	/* nav ul {
 		display: flex;
-	}
-	.nav-menu {
+	} */
+	/* .nav-menu {
 		padding: 10px 10px;
 		font-size: 17px;
-	}
+	} */
 
 	/*fix below for full size nav*/
 /*	nav:hover ul {
 		display: inline;
 	}*/
-	nav li {
+	/* nav li {
 		display: inline;
-	}
-	#nav-container {
+	} */
+	/* #nav-container {
 		width: 400px;
-	}
+	} */
 	.nav-padding {
 	margin-top: 120px;
 	}
