@@ -166,6 +166,9 @@ h5 {
 
 .button:hover {
 	background-color: #3DDAD7;
+}
+
+.button a:hover {
 	color: #EDFAFD;
 }
 
