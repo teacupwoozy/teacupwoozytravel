@@ -19,7 +19,6 @@ p {
 
 #logo {
 	display: inline-block;
-
 }
 
 #main-nav {
@@ -121,7 +120,7 @@ a:hover {
 } */
 
 .nav-padding {
-	margin-top: 150px;
+	margin-top: 0px;
 }
 
 /* .nav-menu {
@@ -140,10 +139,10 @@ a:hover {
 	color: #08708A;
 	font-size: 45px;
 	font-weight: 300;
-	position: absolute;
+	/* position: absolute; */
 	top: 25vh;
 	left: -10px;
-	padding: 0 10px;
+	padding: 50px 10px;
 	text-align: right;
 }
 
@@ -162,7 +161,7 @@ h2 {
 	font-size: 55px;
 	font-weight: 300;
 	text-align: right;
-	margin: 15px;
+	margin: 0px;
 }
 
 h3 {
