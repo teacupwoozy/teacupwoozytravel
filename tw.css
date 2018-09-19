@@ -43,56 +43,12 @@ p {
 	cursor: pointer;
 }
 
-/* #nav-container {
-	text-align: center;
-} */
-
-/* #nav-header {
-	background-color: #EDFAFD;
-	width: 100%;
-	height: 150px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 100;
-} */
-
-/* #menu-icon {
-	display: inline-block;
-	background: #EDFAFD url(images/arrow.png) center;
-	height: 26px;
-	width: 32px;
-	padding-top: 6px;
-	border-radius: 6px;
-} */
-
 nav a {
 	color: #08708A;
 }
 
-/* nav ul, nav:active ul {
-	display: none;
-	position: center;
-	background: #EDFAFD;
-	padding: 0;
-	top: 150px;
-	width: 55%;
-	margin: 0 auto;
-	border-radius: 4px 4px 4px 4px;
-}
-
-nav li {
-	text-align: center;
-	width: 100%;
-	padding: 13px 0;
-}
-
-nav:hover ul {
-	display: block;
-} */
-
 h1 {
-	font-size: 30px;
+	font-size: 22px;
 	font-weight: 300;
 	color: #08708A;
 	text-align: center;
@@ -100,7 +56,7 @@ h1 {
 }
 
 h1 span {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 300;
 	color: #3DDAD7;
 }
@@ -114,18 +70,9 @@ a:hover {
 	color: #3DDAD7;
 }
 
-/* nav ul {
-	list-style-type: none;
-	padding: 0px;
-} */
-
 .nav-padding {
 	margin-top: 0px;
 }
-
-/* .nav-menu {
-	font-size: 16px;
-} */
 
 #welcome-section {
 	background-image: url(images/greece.jpg);
@@ -139,7 +86,6 @@ a:hover {
 	color: #08708A;
 	font-size: 45px;
 	font-weight: 300;
-	/* position: absolute; */
 	top: 25vh;
 	left: -10px;
 	padding: 50px 10px;
@@ -317,11 +263,16 @@ footer {
 	text-align: center;
 }
 
-
 @media screen and (min-width: 480px) {
 	#welcome-section h2 {
 	top: 35vh;
 	left: 15vw;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h1 span {
+		font-size: 24px;
 	}
 }
 
@@ -356,9 +307,9 @@ footer {
 	.services-right p {
 		text-align: left;
 	}
-	.included-list {
+	/* .included-list {
 
-	}
+	} */
 	.blog-container {
 		display: flex;
 		flex-wrap: wrap;
@@ -389,49 +340,32 @@ footer {
 		font-size: 65px;
 		width: 90%;
 	}
-	/* #nav-header {
-		height: 100px;
-	} */
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 0;
+		height: 116px;
+	}
+	#main-nav {
+		display: flex !important;
+		margin-right: 30px;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	#main-nav li {
+		margin: 0;
+	}
+	.nav-links {
+		margin-left: 40px;
+	}
+	#navbar-toggle {
+		display: none;
+	}
 	#welcome-section h2 {
 		left: 0vw;
 		font-size: 55px;
 	}
-	/* #menu-icon {
-		display: none;
-	} */
-	/* #nav-header {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: left;
-		padding: 10px;
-		width: 100vw;
-	} */
-/*	#nav-container {
-		padding: 40px;
-	}*/
-	/* nav ul {
-		display: flex;
-	} */
-	/* .nav-menu {
-		padding: 10px 10px;
-		font-size: 17px;
-	} */
-
-	/*fix below for full size nav*/
-/*	nav:hover ul {
-		display: inline;
-	}*/
-	/* nav li {
-		display: inline;
-	} */
-	/* #nav-container {
-		width: 400px;
-	} */
-	.nav-padding {
-	margin-top: 120px;
-	}
-
 	.home-small-box {
 		height: 225px;
 	}
@@ -454,6 +388,3 @@ footer {
 		float: left;
 	}
 }
-
-
-
