@@ -24,7 +24,7 @@ p {
 
 #main-nav {
 	list-style-type: none;
-	display: flex;
+	display: none;
 	flex-direction: column;
 }
 
