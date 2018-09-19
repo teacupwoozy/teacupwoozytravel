@@ -17,21 +17,32 @@
 </head>
 <body>
 	<header id="nav-header">
-		<div id="logo">
-			<h1>T E A C U P   W O O Z Y<br>
-			<span>personalized travel planning</span></h1>
-		</div>
+		<nav class="navbar">
+			<span id="navbar-toggle">
+				<img src="images/menu-icon.png" alt="toggle button for dropdown menu">
+			</span>
 
-		<!-- <nav id="nav-container">
-			<a href="#" id="menu-icon"></a>
-			<ul>
-				<li class="nav-menu"><a href="home.html">Home</a></li>
-				<li class="nav-menu"><a href="services.html">Services</a></li>
-				<li class="nav-menu"><a href="blog.html">Blog</a></li>
-				<li class="nav-menu"><a href="about.html">About</a></li>
-				<li class="nav-menu"><a href="contact.html">Contact</a></li>
+			<a href="index.html" id="logo"><h1>T E A C U P W O O Z Y<br>
+				<span>personalized travel planning</span></h1>
+			</a>
+			<ul id="main-nav">
+				<li>
+					<a href="index.html" class="nav-links">Home</a>
+				</li>
+				<li>
+					<a href="services.html" class="nav-links">Services</a>
+				</li>
+				<li>
+					<a href="blog.html" class="nav-links">Blog</a>
+				</li>
+				<li>
+					<a href="about.html" class="nav-links">About</a>
+				</li>
+				<li>
+					<a href="contact.html" class="nav-links">Contact</a>
+				</li>
 			</ul>
-		</nav>	 -->
+		</nav>
 	</header>
 
 	<!-- Main content -->
@@ -51,31 +62,73 @@
 			<!-- "background-ocean-box" will be a solid background covering set width of page -->
 			<div class="background-ocean-box">
 				<br><br>
-				<br><br>
-				<br><br>
 				<header><h4>PLANNING A GREAT VACATION CAN BE A TON OF WORK.<br> AND, SOMETIMES IT'S OVERWHELMING.<br>
 				LET ME PLAN YOUR AMAZING TRIP SO THAT YOU FOCUS ON ENJOYING IT.</h4></header>
+				<br>
+				<p>Teacup Woozy offers completely personalized travel planning services for independent travelers who 
+					are too busy or too overwhelmed to plan their next trip.</p>
+				<p>I specialize in helping people with little to no travel experience, as well as people who travel 
+					regularly but are simply too busy to plan that next amazing trip. I also provide comprehensive 
+					travel planning services for digital nomads.</p>
 				<br><br>
-				<br><br>
-				<br><br>
+				<!-- The Why boxes -->
+				<!-- "home-small-box" will be white-ish background boxes, rounded corners, poss very transparent photo in background -->
 				<div class="home-small-box">
 					<br>
-					<h4>CONTACT ME</h4>
+					<h4>SAVE TIME</h4>
+					<p>Your time is valuable. Let me handle all of the time-consuming research involved in planning 
+						an amazing trip.</p>
+				</div>
+				<br>
+				<div class="home-small-box">
+					<h4>SAVE FRUSTRATION</h4>
+					<p>I will sort through all the details and provide you with a completely customized shortlist 
+						of options that fit the spirit of your trip. There's really no need to stress out planning 
+						your next vacation.</p>
+				</div>
+				<br>
+				<div class="home-small-box">
 					<br>
-					<p>Interested in getting help planning your next trip?
-					<br>
-					Drop me an <a href="mailto:stacy@teacupwoozy.com&subject=Travel%Planning%Help">email</a>.</p>
+					<h4>SAVE MONEY</h4>
+					<p>I track down options within your budget and can locate deals that you wouldn't have 
+						otherwise known about.</p>
+				</div>
+				<br>
+				<div class="home-small-box">
+					<h4>INSPIRE</h4>
+					<p>I live and breathe all-things-travel, so I have a lot of creative ideas for how to make 
+						the most of your travels. As a bonus, I sometimes present my clients with “Wildcard” ideas 
+						for their trips.</p>
 				</div>
 				<br><br>
-				<br><br>
-				<br><br>
+				<!-- Call to action -->
+				<!-- "first-sentence" will be same size as h4 -->
+				<div>
+					<p><span class="first-sentence">AS YOUR PERSONAL TRAVEL PLANNER,</span> I will work with you to 
+					understand the exact kind of trip you're dreaming of as well as all of your requirements. Then – 
+					this is the best part – you get back to your life while I get to work and do all of the research 
+					and planning for you!</p>
+					<p>For each travel package, I curate a small collection of accommodations, flight options, 
+					activities, and much more. Or, if you only need a little bit of help, I also have some 
+					<a href="services.html">a la carte travel planning services</a> too.</p>
+					<p>I provide everything to you in a convenient electronic format, and then all you have to do is 
+					choose from your personalized shortlist of options, make a couple reservations, and then pack 
+					your bag.</p>
+					<br><br>
+					<h4>GET STARTED ON YOUR NEXT VACATION TODAY!</h4>
+					<br><br>
+					<p>Hop on over to my Services page to see the different ways that I can help you to have an amazing trip, or keep scrolling down to read more.</p>
+					<br>
+					<div class="button-container">
+						<p><button class="button"><a href="mailto:stacy@teacupwoozy.com?subject=Question%20from%20teacupwoozy.com"> LEARN MORE</a></button></p>
+					</div>
+					<br><br>
+				</div>
 			</div>
 		</article>
 
 		<!-- Testimonials -->
 		<article class="bumpers">
-			<br><br>
-			<br><br>
 			<br><br>
 			<header><h2>WHAT MY CLIENTS ARE SAYING</h2></header>
 			<div class="container">
@@ -90,17 +143,42 @@
 						<img src="images/client-testimonial-las-vegas.jpg" alt="I found everything to be easy to follow, informative and helpful!" class="responsive-image">
 					</div>
 				</div>
+			</div>	
+		</article>
+
+		<!-- Why we travel -->
+		<article class="bumpers">
+			<br><br>
+			<header><h2>WHY WE TRAVEL</h2></header>
+			<div class="background-ocean-box">
+				<br><br>
+				<p>For my clients, travel is about more than just ticking off items on a destination bucket list. 
+				Travel can be about reconnecting with yourself and the people you love. It can be about making 
+				connections with total strangers in ways that transcend language and borders. And, travel can be 
+				a totally immersive experience that stays with you for years afterward.</p>
+				<p>I love designing these personalized travel experiences for my clients and keeping them far, far 
+					away from overcrowded and uninspiring cookie-cutter vacations. Instead, I want my clients to 
+					be able to experience the things that are interesting and meaningful to them.</p>
+				<p>I take care of the planning details and make sure you have a wonderful selection of the types of 
+					accommodations, flights, and experiences you have your heart set on. But, more importantly, I 
+					also make sure that the trip I plan for you has the right vibe that you're going for and sets 
+					you on your way to having incredible experiences.</p>
+				<p>In other words, if you're looking for something more than a selfie in front of the Mona Lisa, 
+					then I'm the one for you. Click the button below to get started and learn more about my travel 
+					planning service.</p>
+				<br>
+				<div class="button-container">
+					<p><button class="button"><a href="mailto:stacy@teacupwoozy.com?subject=Question%20from%20teacupwoozy.com">GET STARTED!</a></button></p>
+				</div>
+				<br><br>
 			</div>
-			<br><br>	
-			<br><br>	
-			<br><br>	
 		</article>
 	</section>
 
 	<footer>
 		<br>
 		<h4 class="newsletter">SIGN UP FOR MY ALL-THINGS-TRAVEL NEWSLETTER!</h4>
-		<h5>Once or twice a month, get hand-curated travel news and stories sent right to your inbox.</h5>
+		<h5>Two or three times a month, get hand-curated travel news and stories sent right to your inbox.</h5>
 		<h5>Sign up <a href="http://eepurl.com/dfZ7wr" target="_blank">here</a>!</h5>
 		<br><br>
 		<!-- flexbox -->
@@ -111,6 +189,6 @@
 			</div>
 		</div>
 	</footer>
-
+	<script src="tw.js"></script>
 </body>
 </html>
