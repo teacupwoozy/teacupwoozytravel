@@ -164,6 +164,10 @@ h5 {
 	text-align: center;
 }
 
+/* .button a {
+	color: #3DDAD7;
+} */
+
 .button:hover {
 	background-color: #3DDAD7;
 }
