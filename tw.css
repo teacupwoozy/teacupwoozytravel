@@ -349,6 +349,12 @@ footer {
 		width: 50%;
 		height: 375px;
 	}
+	.blog-post-container img {
+		margin-right: 10%;
+	}
+	.inline-image-right {
+		float: right;
+	}
 	#about-photo {
 		float: left;
 		padding: 20px;
