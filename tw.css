@@ -326,11 +326,11 @@ footer {
 	.blog-container img {
 		max-width: 100%;
 		width: auto;
-		height: auto;
+		max-height: 300px;
 	}
 	.blog-cell {
 		width: 50%;
-		height: 700px;
+		height: 375px;
 	}
 	#about-photo {
 		float: left;
