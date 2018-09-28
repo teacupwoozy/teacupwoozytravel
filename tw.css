@@ -349,6 +349,9 @@ footer {
 		width: 50%;
 		height: 375px;
 	}
+	.blog-cell p, h4 {
+		margin-left: 15px;
+	}
 	.blog-post-container {
 		width: 80%;
 		margin: auto;
